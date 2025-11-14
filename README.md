@@ -15,7 +15,7 @@
 * **Delivered a strategic 4-phase operational roadmap (0–3, 3–6, 6–12, 12+ months)** recommending premium-shipping redesign, pricing optimization, geographic expansion, predictive logistics, and partner renegotiation.
 
 
-### **Tthe main causes of revenue leakage**
+### Tthe main causes of revenue leakage
 - Pending orders: 40% of all orders — huge working capital block.
 - Pending Payment Status: 22% of transactions stuck, impacting cash flow.
 - 19% orders unprofitable after costs
@@ -23,18 +23,19 @@
 - Churn rate: ~51% — half of customers lapse after 240 days of inactivity
 - Root causes: payment delays, pricing gaps, and supply chain inefficiency
 
-### **Insights & Recommendations**
+## Insights & Recommendations
 | **Category**       | **Challenge Identified**            | **Strategic Focus**                         |
 | ------------------ | ----------------------------------- | ------------------------------------------- |
-| Delivery & SLA     | 57% late deliveries                 | Predictive analytics + partner optimization |
+| Delivery & SLA     | 57% late deliveries, Intercontinental delivery highly failing                 | Predictive analytics with delay model, logistic partner segregation across different continents |
 | Customer Retention | 51% churn, 9-month lifespan, on an avg. orders after 60 days         | Loyalty & reactivation campaigns, Subscription on repeatable items            |
-| Discounts      | 98% (nearly every order) Discounted order,    | Run A/B tests to understand which products can sustain reduced discounts without affecting conversion        |
-| Profitability      | Low-margin SKUs, 19% loss orders    | Dynamic pricing & bundling                  |
-| Working Capital    | 40% pending orders                  | Payment automation                          |
-| Regional Growth    | Africa high-margin, low penetration | Targeted market pilots                      |
-| Premium Shipping   | First-Class & Second-Class: 100% and 77% late or canceled respectively, 60% orders late delivery         | Suspend First/Second-Class upsells until premium service reliability improves, SLA segregation & tracking                  |
+| Frauds | 9 products across 3 regions consisted of 60% fraudulant products         | Doa background heck on 9 products |
+| Discounts          | 98% (nearly every order) Discounted order, with avg discount of $21                   | Run A/B tests to understand which products can sustain reduced discounts without affecting conversion     |
+| Profitability      | Low-margin SKUs, 19% loss orders                                                      | Dynamic pricing & bundling                                                                                |
+| Working Capital    | 23% orders with payment pending & payment review holding $8M revenue and $900K profit | Payment automation, Improve UX                                                                            |
+| Regional Growth    | Africa - 32% higher margin, low penetration                                           | Targeted market pilots for future expansion                                                               |
+| Product Growth     | Fitness Department (45% margin, low sales)                                            | Increase promotional intensity across fitness                                                             |
 
-### Organizational Strategy — Implementation Roadmap
+## Organizational Strategy — Implementation Roadmap
 | **Phase**                     | **Initiatives**                                                                                |
 | ----------------------------- | ---------------------------------------------------------------------------------------------- |
 | **Immediate (0–3 months)**    | Fix premium shipping failures, optimize payment flows, high-margin bundling                    |
