@@ -1,5 +1,7 @@
 # Supply Chain and sales analysis
 
+The supply chain dataset on which the analysis is done is attached along with the files as `DataCoSupplyChainDataset.csv`. The full analysis is done on `Analysis.ipynb`. The `customer_clusters.csv` has all the customers segmented into 5 categories.
+
 ## Overview
 
 * **Analysed a 3-year online retail dataset (1.8L+ order-item transactions)** from DataCo, performing rigorous data cleaning, deduplication, missing-value imputation, ZIP-code reconciliation, and full date standardization to convert item-level entries into reliable order- and customer-level aggregates.
