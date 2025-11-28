@@ -23,6 +23,25 @@ The supply chain dataset on which the analysis is done is attached along with th
 ---
 
 ## Understanding the KPIs
+
+The key performance indicators I calculated are-
+- Total Unique Customers and total orders
+- Repeat Purchase Rate
+- Contribution in Revenue of Top 10% and 30% customers
+- Total Revenue & Profit
+- Average revenue per customer
+- Revenue across different regions
+- Average Order Value, Average Order Quantity
+- Late Delivery Rate, Cancellation Rate, Fraud Rate
+- Top 10 products sold
+- Churn Rate
+- Average Customer Lifespan
+- Customer LTV
+- Average Time Between Orders
+
+Out of all these KPIs the Customer Churn Rate, Late Delivery Rate across all Delivery Classes, Profit Margin, LTV, and Discount Penetration were directly tied to customer retention and operational savings and I find them most impactful.
+
+**NOTE**
 - Churn Rate: percentage of customers who stop using the service during a specific period (Customers who did not order for > 240 days)
 - Average Customer Lifespan: average length of time a customer remains a customer (here: average duration from a customer's first order until their last order)
 - Customer LTV: total predicted revenue a customer will generate for the business over the entire period of their relationship (total amount of money an average customer is expected to spend from the store before they stop shopping there)
@@ -41,7 +60,37 @@ The supply chain dataset on which the analysis is done is attached along with th
 
 ---
 
+## XGBoost
+
+XGBoost builds an **ensemble of decision trees**, where each new tree corrects the errors made by the previous ones. It optimizes a **custom loss function** using **gradient descent** and adds **regularization** to reduce overfitting.
+
+### What XGBoost Can Do:
+
+| Task Type      | Example Use Cases                      |
+| -------------- | -------------------------------------- |
+| Classification | Predict late deliveries, churn, fraud  |
+| Regression     | Forecast shipment delay, revenue       |
+| Ranking        | Product recommendation, search ranking |
+
+### How It Works:
+
+1. Starts with an initial prediction (e.g., average value).
+2. Computes the residuals (errors).
+3. Builds a new tree to predict those residuals.
+4. Adds that tree to the model using a learning rate.
+5. Repeats steps 2–4 for N rounds.
+
+**But why XGBoost?**
+- I had to Select an algorithm for classification of late vs on-time.
+- I chose XGBoost because it handles mixed data types well as I had numerical features like shipping days and categorical ones like shipping modes, order city, etc. 
+- It's also robust against overfitting because I can tune the Tree depth and learning rate.
+- Moreover, I compared the results of this model with Linear Regression & Random Forest as well. XGBoost gave me a better accuracy score. 
+
+---
+
 ## The 5 Customer Clusters
+
+**Clustering** is an **unsupervised learning task** where the goal is to group a set of data points into clusters such that the points within the same cluster are **more similar** to each other than to points in other clusters. This is done to discover inherent groupings or structure in unlabeled data.
 
 ### Cluster 0 – “Mass-Market High-Variety Buyers”
 
