@@ -1,6 +1,6 @@
 # Supply Chain and sales analysis
 
-The supply chain dataset on which the analysis is done is attached along with the files as `DataCoSupplyChainDataset.csv`. The full analysis is done on `Analysis.ipynb`. The `customer_clusters.csv` has all the customers segmented into 5 categories.
+The supply chain dataset from DataCo on which the analysis is done is attached along with the files as `DataCoSupplyChainDataset.csv`. The full analysis is done on `Analysis.ipynb`. The `customer_clusters.csv` sheet has all the customers segmented into 5 categories.
 
 ## Overview
 
@@ -19,6 +19,64 @@ The supply chain dataset on which the analysis is done is attached along with th
 * **Diagnosed key bottlenecks** such as **57% late deliveries**, **51% churn risk**, **98% discount dependency**, **22% payment failures**, and **19% loss-making orders**, highlighting critical operational leakage points.
 
 * **Delivered a 4-phase strategic roadmap (0–3, 3–6, 6–12, 12+ months)** recommending premium-shipping redesign, discount optimization, predictive logistics, market-specific expansion, SKU rationalization, and partner renegotiation for sustainable margin improvement.
+
+---
+
+Here is a polished, professional, sharper version of your sections — more structured, concise, and aligned with an analytics/consulting report style:
+
+---
+
+## Executive Summary
+
+### Objective
+
+The goal of this project was to analyze a 3-year online retail supply chain dataset, diagnose operational bottlenecks and revenue leakage, build predictive models to optimize logistics performance, segment customers for targeted strategies, and generate a strategic roadmap to improve margins, delivery reliability, and customer retention.
+
+### Tools, Language & Analytical Stack
+
+**Programming Language:** Python
+**Data & Analytics:** Pandas, NumPy, Scikit-learn (K-Means, Linear Regression), XGBoost
+**Visualization & Dashboarding:** Streamlit (multi-tab UI), Plotly, Matplotlib, Seaborn
+**Modeling:** XGBoost Classifier & Regressor, Exponential/log-linear forecasting
+**Environment:** Jupyter Notebook and Streamlit App
+
+---
+
+## Dataset Overview
+
+### Data Source
+
+**Dataset:** *DataCo Smart Supply Chain for Big Data Analysis*
+**Repository:** Mendeley Data (Version 3)
+**DOI:** 10.17632/8gx2fvg2k6.3
+**Authors:** Fabian Constante, Fernando Silva, António Pereira (2019)
+
+### Time Coverage
+
+January 2015 → January 2018 (Complete 3-year dataset + partial month for 2018)
+
+### Granularity & Structure
+
+The dataset is provided at an **order-item level**, where each row represents a unique product within an order.
+This required transforming and aggregating data into:
+
+* **Order-level metrics** (order value, delivery performance, AOV, shipment delays)
+* **Customer-level metrics** (RFM features, churn risk, behavior patterns)
+
+### Data Volume & Summary Metrics
+
+* **Total Records:** 1,80,519 order-item transactions
+* **Unique Customers:** 16,206
+* **Completed Orders:** 36,866
+* **Number of Features:** 53 columns
+
+
+### \Data Scope
+* **Geographic Coverage:** Southeast Asia, South Asia, Oceania, Eastern Asia, West Asia, West of USA , US Center , West Africa, Central Africa, North Africa, Western Europe, Northern Europe, Central America, Caribbean, South America, East Africa, Southern Europe, East of USA, Canada, Southern Africa, Central Asia, Eastern Europe, South of USA (23 regions)
+* **Total SKUs:** 118 (Smart Watch, Perfect Fitness Perfect Rip Deck, Under Armour Girls' Toddler Spine Surge Runni, Nike Men's Dri-FIT Victory Golf Polo, etc)
+* **Product Categories:** 51
+* **Customer Segments:** Consumer, Home Office, Corporate
+* **Order Status:** COMPLETE, PENDING, CLOSED, PENDING PAYMENT, CANCELED, PROCESSING, SUSPECTED FRAUD, ON HOLD, PAYMENT REVIEW
 
 ---
 
