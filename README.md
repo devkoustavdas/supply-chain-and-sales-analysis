@@ -22,10 +22,6 @@ The supply chain dataset from DataCo on which the analysis is done is attached a
 
 ---
 
-Here is a polished, professional, sharper version of your sections — more structured, concise, and aligned with an analytics/consulting report style:
-
----
-
 ## Executive Summary
 
 ### Objective
@@ -71,7 +67,7 @@ This required transforming and aggregating data into:
 * **Number of Features:** 53 columns
 
 
-### \Data Scope
+### Data Scope
 * **Geographic Coverage:** Southeast Asia, South Asia, Oceania, Eastern Asia, West Asia, West of USA , US Center , West Africa, Central Africa, North Africa, Western Europe, Northern Europe, Central America, Caribbean, South America, East Africa, Southern Europe, East of USA, Canada, Southern Africa, Central Asia, Eastern Europe, South of USA (23 regions)
 * **Total SKUs:** 118 (Smart Watch, Perfect Fitness Perfect Rip Deck, Under Armour Girls' Toddler Spine Surge Runni, Nike Men's Dri-FIT Victory Golf Polo, etc)
 * **Product Categories:** 51
